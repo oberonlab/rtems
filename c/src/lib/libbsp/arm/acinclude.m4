@@ -26,6 +26,8 @@ AC_DEFUN([RTEMS_CHECK_BSPDIR],
     AC_CONFIG_SUBDIRS([lpc24xx]);;
   lpc32xx )
     AC_CONFIG_SUBDIRS([lpc32xx]);;
+  mil1986be9x )
+    AC_CONFIG_SUBDIRS([mil1986be9x]);;
   raspberrypi )
     AC_CONFIG_SUBDIRS([raspberrypi]);;
   realview-pbx-a9 )
